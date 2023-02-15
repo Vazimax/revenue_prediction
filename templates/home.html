@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ice Cream Revenue</title>
+</head>
+<body>
+    <h1>Testing</h1>
+    <form action="{{url_for('predict')}}" method="post">
+        <input placeholder="Temperature" type="text" name="temperature"></input>
+        <button type="submit">Revenue prediction</button>
+    </form>
+    <h4>
+        {{text}}
+    </h4>
+</body>
+</html>
