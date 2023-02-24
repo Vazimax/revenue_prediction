@@ -15,4 +15,4 @@ def predict():
     return render_template("home.html",text=f"The predicted revenue is {output}")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0')
